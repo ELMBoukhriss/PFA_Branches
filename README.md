@@ -34,20 +34,20 @@ https://drive.google.com/file/d/1fR0ZMsMM8HNU34HW-5cD3OLh0dSZr-oc/preview
     
 #### 3-Demarrer le Project sur Eclipse et utiliser Postman pour manipuler l'API :
     
-  - Par exemple utiliser GET pour lister toutes les branches dans "API endpoint" suivant :
+  - Par exemple utiliser `GET` pour lister toutes les branches dans "API endpoint" suivant :
   
        
         localhost:8080/api/v1/branches/
         
         
-  - Utiliser GET avec l'url suivant pour lister une branche avec son id :
+  - Utiliser `GET` avec l'url suivant pour lister une branche avec son id :
   
        
         localhost:8080/api/v1/branches/{id}
         ex : localhost:8080/api/v1/branches/20
         
         
- - Utiliser Post avec l'url suivant pour  Ajouter une branche  :
+ - Utiliser `POST` avec l'url suivant pour  Ajouter une branche  :
  
        
         localhost:8080/api/v1/branches/
@@ -58,7 +58,7 @@ https://drive.google.com/file/d/1fR0ZMsMM8HNU34HW-5cD3OLh0dSZr-oc/preview
         }
      
         
-  - Utiliser DELETE avec l'url suivant pour Supprimer une branche  :
+  - Utiliser `DELETE` avec l'url suivant pour Supprimer une branche  :
   
        
         localhost:8080/api/v1/branches/{id}
