@@ -71,9 +71,8 @@ https://drive.google.com/file/d/1fR0ZMsMM8HNU34HW-5cD3OLh0dSZr-oc/preview
    - lancer le projet sur un emulateur ou tel .
    - le projet est deja configurer pour connecter automatiquement avec l'API,si vous rencontrer des problemes modifier l'url dans le package:
    
-    ```
      flutter_project/lib/services/api_service.dart 
-    ```
+   
     
     
     
