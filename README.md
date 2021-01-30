@@ -18,8 +18,8 @@ https://drive.google.com/file/d/1fR0ZMsMM8HNU34HW-5cD3OLh0dSZr-oc/preview
     
   ##### avec :
    ```
-   - `username : votre username postgresql`
-   - `dbname : choisir un nom ou utiliser  "branche_activites "`
+   - username : votre username postgresql
+   - dbname : choisir un nom ou utiliser  "branche_activites "
    ```
    
 #### 2-Importer le dossier `Backend-API-Springboot` sur Eclipse ou autre IDE :
@@ -37,6 +37,31 @@ https://drive.google.com/file/d/1fR0ZMsMM8HNU34HW-5cD3OLh0dSZr-oc/preview
         ```
         localhost:8080/api/v1/branches/
         ```
+  - Utiliser GET avec l'url suivant pour lister une branche avec son id :
+        ```
+        localhost:8080/api/v1/branches/{id}
+        ex : localhost:8080/api/v1/branches/20
+        ```    
+ - Utiliser Post avec l'url suivant pour  Ajouter une branche  :
+ 
+        ```
+        localhost:8080/api/v1/branches/
+        
+        ex Json:
+        {
+          "branche" : "Nouvelle Branche"
+        }
+        ```
+        
+  - Utiliser DELETE avec l'url suivant pour Supprimer une branche  :
+  
+        ```
+        localhost:8080/api/v1/branches/{id}
+        
+        ex : localhost:8080/api/v1/branches/29
+        
+        ```
+        
 #### 4-Importer le dossier `flutter_project ` sur Intellij idea ou Android studio :
    - lancer le projet sur un emulateur ou tel .
    - le projet est deja configurer pour connecter automatiquement avec l'API,si vous rencontrer des problemes modifier l'url dans le package:
