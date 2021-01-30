@@ -10,7 +10,7 @@ https://drive.google.com/file/d/1fR0ZMsMM8HNU34HW-5cD3OLh0dSZr-oc/preview
 
 ------------------------------------------------------------------------------------
 
-### Etapes a suivre pour deployer le project compelet:
+### Etapes a suivre pour deployer le project complet:
 
 #### 1-Importer le fichier `dbexport.pgsql` sur Postgresql avec cette commande :
   - 
@@ -31,11 +31,18 @@ https://drive.google.com/file/d/1fR0ZMsMM8HNU34HW-5cD3OLh0dSZr-oc/preview
     
     ```
     
-#### 3-Demarrer le Project sur eclipse et utiliser Postman pour manipuler l'API :
+#### 3-Demarrer le Project sur Eclipse et utiliser Postman pour manipuler l'API :
     
   - Par exemple utiliser GET pour lister toutes les branches dans "API endpoint" suivant :
         ```
         localhost:8080/api/v1/branches/
         ```
+#### 4-Importer le dossier `flutter_project ` sur Intellij idea ou Android studio :
+   - lancer le projet sur un emulateur ou tel .
+   - le projet est deja configurer pour connecter automatiquement avec l'API,si vous rencontrer des problemes modifier l'url dans le package:
+    ```
+     flutter_project/lib/services/api_service.dart 
+    ```
+    
     
     
